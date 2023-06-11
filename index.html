@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="img/abid ansari 2.png" type="image/x-icon">
+
+    <!-- Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Baloo+Tamma+2:wght@400;500;600;700;800&family=Indie+Flower&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Font Awesome -->
+    <script
+      src="https://kit.fontawesome.com/fbadad80a0.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- Main CSS -->
+    <link rel="stylesheet" href="style.css" />
+    
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+    <title>Abid Ansari</title>
+  </head>
+  <body>
+    <!-- __________________________________ alert _____________________________________ -->
+<div id="customAlert" class="modal">
+  <div class="modal-content">
+    <h2>Message</h2>
+    <p>Click Resume PDF Button TO Get Email and Contact Number.</p>
+    <button id="okButton">OK</button>
+  </div>
+</div>
+
+    
+    <!--*-*-*-*-*-*-*-*-*-*-*-*-*-*-* Aside Nav *-*-*-*-*-*-*-*-*-*-*-*-*-*-*-->
+    <aside id="side-nav">
+      <div class="side-nav__content">
+        <div class="side-nav__content--logo">
+          <img src="img/abid ansari.png" alt="logo" />
+        </div>
+        <ul class="side-nav__content--social">
+          <a href="#"><i class="fab fa-facebook-f fa-fade"></i></a>
+          <a href="#"><i class="fab fa-twitter"></i></a>
+          <a href="https://www.linkedin.com/feed/?trk=guest_homepage-basic_nav-header-signin"><i class="fab fa-linkedin-in"></i></a>
+          <a href="https://www.instagram.com/abidansari5594/?hl=en"><i class="fab fa-instagram"></i></a>
+          <a href="#"><i class="fab fa-dribbble"></i></a>
+          <a href="#"><i class="fab fa-pinterest-p"></i></a>
+        </ul>
+      </div>
+    </aside>
+
+    <!--*-*-*-*-*-*-*-*-*-*-*-*-*-*-* Main Content *-*-*-*-*-*-*-*-*-*-*-*-*-*-*-->
+    <main>
+      <!--*-*-*-*-*-*-*-*-*-*-*-*-*-*-* Main Nav *-*-*-*-*-*-*-*-*-*-*-*-*-*-*-->
+      <header id="header">
+        <nav id="header__main-nav">
+          <div class="header__main-nav--hamburger">
+            <div class="line line-1"></div>
+            <div class="line line-2"></div>
+            <div class="line line-3"></div>
+          </div>
+          <ul class="header__main-nav--links">
+          
+            <li><a href="#about-me"  onclick="AboutSection('about-me')">About</a></li>
+            <li><a href="#skills"  onclick="AboutSection('skills')">Skills</a></li>
+            <li><a href="#work" onclick="AboutSection('work')">Projects</a></li>
+            <li><a href="#" onclick="AboutSection('services')">Services</a></li>
+            <li><a href="#con" onclick="AboutSection('con')">Hire Me</a></li>
+            <li><a href="#con"   onclick="AboutSection('con')">Contact</a></li>
+            <li><a href="Resume-Abid Ansari (3).pdf" target="_blank" download>Resume PDF</a></li>
+            
+          </ul>
+        </nav>
+      </header>
+
+      <!--*-*-*-*-*-*-*-*-*-*-*-*-*-*-* Showcase / Hero Section *-*-*-*-*-*-*-*-*-*-*-*-*-*-*-->
+      <section id="showcase">
+        <div class="showcase__content">
+          <h1 class="showcase__content--title">Abid Ansari</h1>
+          <p class="showcase__content--para">
+            Full-Stack Developer / React,Python
+          </p>
+          <a href="#work" class="showcase__content--link" onclick="AboutSection('work')">My Work</a>
+        </div>
+      </section>
+
+      <!--*-*-*-*-*-*-*-*-*-*-*-*-*-*-* Work Section *-*-*-*-*-*-*-*-*-*-*-*-*-*-*-->
+      <section id="work">
+        <div class="work__card">
+          <img src="img/portfolio-creative-01-1.jpg" alt="cloth-bag" />
+        </div>
+
+        <div class="work__card">
+          <img src="img/portfolio-branding-02-1.jpg" alt="branding" />
+        </div>
+
+        <div class="work__card">
+          <img src="img/portfolio-branding-01-1.jpg" alt="cup" />
+        </div>
+
+        <div class="work__card">
+          <img src="img/portfolio-print-02-1.jpg" alt="book-cover" />
+        </div>
+        <div class="work__card">
+          <a href="https://meesho-clone-y5bh.vercel.app/" target="_blank" rel="noopener noreferrer">
+            <img src="img/meesho.png" alt="poster" />
+          </a>
+        </div>
+      </a>
+      </div>
+
+      <div class="work__card">
+        <a href="https://clone-linkedin-kappa.vercel.app/" target="_blank" rel="noopener noreferrer">
+          <img src="img/linkedin.png" alt="poster" />
+        </a>
+      </div>
+      </section>
+
+      <!--*-*-*-*-*-*-*-*-*-*-*-*-*-*-* About Me Section *-*-*-*-*-*-*-*-*-*-*-*-*-*-*-->
+      <section id="about-me">
+        <div class="about-me__img">
+          <img src="img/abid ansari 3.png" alt="ME" />
+        </div>
+        <div class="about-me__content">
+          <h2 class="about-me__content--title">About Me</h2>
+          <p class="about-me__content--para">
+            Strong  engineering  professional  with a Bachelor of Computer Science.
+             Have the capability to solve complex problems.
+          </p>
+          <a href="#" class="about-me__content--link">Read More</a>
+        </div>
+      </section>
+
+      <!--*-*-*-*-*-*-*-*-*-*-*-*-*-*-* Services Section *-*-*-*-*-*-*-*-*-*-*-*-*-*-*-->
+      <section id="services">
+        <!-- Service 1 -->
+        <div class="service services__service-1">
+          <i class="fas fa-quidditch"></i>
+          <h3 class="services--title services__service-1--title">UI Design</h3>
+          <p class="services--para services__service-1--para">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque
+            nisi, atque deserunt iste ipsa odit!
+          </p>
+        </div>
+
+        <!-- Service 2 -->
+        <div class="service services__service-2">
+          <i class="fas fa-tasks"></i>
+          <h3 class="services--title services__service-2--title">
+            Web Development
+          </h3>
+          <p class="services--para services__service-2--para">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque
+            nisi, atque deserunt iste ipsa odit!
+          </p>
+        </div>
+
+        <!-- Service 3 -->
+        <div class="service services__service-3">
+          <i class="fas fa-mobile-alt"></i>
+          <h3 class="services--title services__service-3--title">
+            App Development
+          </h3>
+          <p class="services--para services__service-3--para">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque
+            nisi, atque deserunt iste ipsa odit!
+          </p>
+        </div>
+
+        <!-- Service 4 -->
+        <div class="service services__service-4">
+          <i class="fas fa-paint-roller"></i>
+          <h3 class="services--title services__service-4--title">
+            Type Design
+          </h3>
+          <p class="services--para services__service-4--para">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque
+            nisi, atque deserunt iste ipsa odit!
+          </p>
+        </div>
+
+        <!-- Service 5 -->
+        <div class="service services__service-5">
+          <i class="far fa-edit"></i>
+          <h3 class="services--title services__service-5--title">
+            Blog Writer
+          </h3>
+          <p class="services--para services__service-5--para">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque
+            nisi, atque deserunt iste ipsa odit!
+          </p>
+        </div>
+
+        <!-- Service 6 -->
+        <div class="service services__service-6">
+          <i class="fas fa-project-diagram"></i>
+          <h3 class="services--title services__service-6--title">
+            Project Management
+          </h3>
+          <p class="services--para services__service-6--para">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque
+            nisi, atque deserunt iste ipsa odit!
+          </p>
+        </div>
+      </section>
+
+      <!--*-*-*-*-*-*-*-*-*-*-*-*-*-*-* Skills Section *-*-*-*-*-*-*-*-*-*-*-*-*-*-*-->
+      <section id="skills">
+        <!-- Design Skills -->
+        <!-- <div class="skills__design">
+          <h3 class="skills__design--title">Design Skills</h3>
+
+          <h4>Web Design</h4>
+          <div class="skills__design--progress">
+            <span class="skills__design--progress__1"></span>
+          </div>
+
+          <h4>Print Design</h4>
+          <div class="skills__design--progress">
+            <span class="skills__design--progress__2"></span>
+          </div>
+
+          <h4>Logo Design</h4>
+          <div class="skills__design--progress">
+            <span class="skills__design--progress__3"></span>
+          </div>
+
+          <h4>Graphic Design</h4>
+          <div class="skills__design--progress">
+            <span class="skills__design--progress__4"></span>
+          </div>
+        </div> -->
+
+        <!-- Coding Skills -->
+        <div class="skills__coding">
+          <h3 class="skills__coding--title">Coding Skills</h3>
+
+          <h4>HTML / CSS</h4>
+          <div class="skills__coding--progress">
+            <span class="skills__coding--progress__1"></span>
+          </div>
+
+          <h4>JavaScript</h4>
+          <div class="skills__coding--progress">
+            <span class="skills__coding--progress__2"></span>
+          </div>
+
+          <h4>React Js</h4>
+          <div class="skills__coding--progress">
+            <span class="skills__coding--progress__3"></span>
+          </div>
+
+          <h4>Python</h4>
+          <div class="skills__coding--progress">
+            <span class="skills__coding--progress__4"></span>
+          </div>
+        </div>
+      </section>
+
+      <!--*-*-*-*-*-*-*-*-*-*-*-*-*-*-* Testimonials Section *-*-*-*-*-*-*-*-*-*-*-*-*-*-*-->
+      <section id="testimonials">
+        <!-- Card 1 -->
+        <div class="testimonials__card">
+          <div class="testimonials__card--img">
+            <img src="img/testimonials-1.jpg" alt="tony" />
+          </div>
+          <div class="testimonials__card--content">
+            <h3 class="testimonials__card--content__title">Remarkable Eye</h3>
+            <p class="testimonials__card--content__para">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam
+              sunt quis cupiditate ducimus non esse?
+            </p>
+          </div>
+        </div>
+
+        <!-- Card 2 -->
+        <div class="testimonials__card">
+          <div class="testimonials__card--img">
+            <img src="img/testimonials-2.jpg" alt="natasha" />
+          </div>
+          <div class="testimonials__card--content">
+            <h3 class="testimonials__card--content__title">Catchy Designs</h3>
+            <p class="testimonials__card--content__para">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam
+              sunt quis cupiditate ducimus non esse?
+            </p>
+          </div>
+        </div>
+
+        <!-- Card 3 -->
+        <div class="testimonials__card">
+          <div class="testimonials__card--img">
+            <img src="img/testimonials-3.jpg" alt="veers" />
+          </div>
+          <div class="testimonials__card--content">
+            <h3 class="testimonials__card--content__title">Smoking Websites</h3>
+            <p class="testimonials__card--content__para">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam
+              sunt quis cupiditate ducimus non esse?
+            </p>
+          </div>
+        </div>
+
+        <!-- Card 4 -->
+        <div class="testimonials__card">
+          <div class="testimonials__card--img">
+            <img src="img/testimonials-4.jpg" alt="odinson" />
+          </div>
+          <div class="testimonials__card--content">
+            <h3 class="testimonials__card--content__title">
+              Easy to work with
+            </h3>
+            <p class="testimonials__card--content__para">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam
+              sunt quis cupiditate ducimus non esse?
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!--*-*-*-*-*-*-*-*-*-*-*-*-*-*-* Contact Section *-*-*-*-*-*-*-*-*-*-*-*-*-*-*-->
+      <section id="contact">
+        <form id="con" class="contact__form" onsubmit="FormSubmitHandler(event)">
+          <input id="name" type="text" placeholder="Name" />
+          <input id="email" type="email" placeholder="Email" />
+          <input id="subject" type="text" placeholder="Subject" />
+          <textarea id="message" name="message" placeholder="Message"></textarea>
+          <input id="openAlertButton" type="submit" value="Submit" />
+        </form>
+      </section>
+    </main>
+
+    <script src="javascript.js"></script>
+    </body>
+</html>
