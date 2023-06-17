@@ -56,6 +56,19 @@ a:visited {
 
 /**************************** Main Styling ************************/
 
+#meusic{
+  margin-right: 40rem;
+  mix-blend-mode: darken;
+  color: black;
+  cursor: pointer;
+}
+
+#meusic_para{
+  display: none;
+  margin-bottom: 5px;
+}
+
+
 /*-*-*-*-**-*-*-*-**-*-*-*-**-*-*-*-* Side Nav *-*-*-*-**-*-*-*-**-*-*-*-**-*-*-*-*/
 aside#side-nav {
   position: sticky;

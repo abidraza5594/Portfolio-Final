@@ -57,20 +57,24 @@
       <!--*-*-*-*-*-*-*-*-*-*-*-*-*-*-* Main Nav *-*-*-*-*-*-*-*-*-*-*-*-*-*-*-->
       <header id="header">
         <nav id="header__main-nav">
+          
           <div class="header__main-nav--hamburger">
             <div class="line line-1"></div>
             <div class="line line-2"></div>
             <div class="line line-3"></div>
           </div>
           <ul class="header__main-nav--links">
-          
-            <li><a href="#about-me"  onclick="AboutSection('about-me')">About</a></li>
-            <li><a href="#skills"  onclick="AboutSection('skills')">Skills</a></li>
-            <li><a href="#work" onclick="AboutSection('work')">Projects</a></li>
-            <li><a href="#" onclick="AboutSection('services')">Services</a></li>
-            <li><a href="#con" onclick="AboutSection('con')">Hire Me</a></li>
-            <li><a href="#con"   onclick="AboutSection('con')">Contact</a></li>
-            <li><a href="Resume-Abid Ansari (3).pdf" target="_blank" download>Resume PDF</a></li>
+            <div id="meusic_div">
+              <img src="img/icons8-audio-wave.gif"  alt="" id="meusic">  
+              <p id="meusic_para">Click Me</p>
+            </div>   
+            <li><a href="#about-me" id="about"  onclick="AboutSection('about-me')">About</a></li>
+            <li><a href="#skills" id="skills"  onclick="AboutSection('skills')">Skills</a></li>
+            <li><a href="#work" id="Project" onclick="AboutSection('work')">Projects</a></li>
+            <li><a href="#" id="service" onclick="AboutSection('services')">Services</a></li>
+            <li><a href="#con" id="hireme" onclick="AboutSection('con')">Hire Me</a></li>
+            <li><a href="#con"  id="contact"  onclick="AboutSection('con')">Contact</a></li>
+            <li><a href="Resume-Abid Ansari (3).pdf" id="resume" target="_blank" download>Resume PDF</a></li>
             
           </ul>
         </nav>
